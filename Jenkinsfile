@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node26' // 对应“全局工具配置”中的 NodeJS 别名
+        nodejs 'Node22' // 对应“全局工具配置”中的 NodeJS 别名
     }
 
     environment {
